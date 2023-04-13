@@ -3,7 +3,7 @@ module.exports = {
   title: 'vitepress-demo',
   // 网站描述
   description: '个人博客',
-  base: '/blog/',
+  base: '/vitepress-demo/',
   // 打包目录
   dest: './dist',
   head: [
