@@ -35,6 +35,9 @@ module.exports = {
     // lastUpdated: 'Last Updated', // string | boolean
     // 启动页面丝滑滚动
     smoothScroll: true,
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com' }
+    ],
     // 导航栏配置
     nav: [
       { text: '百度', link: 'https://www.baidu.com' },
@@ -44,6 +47,10 @@ module.exports = {
     sidebar: {
       '/': getSidebar(),
     },
+    footer: {
+      message: '其实我也不知道写啥注脚',
+      copyright: '那我就随便写个吧'
+    }
   },
 }
 

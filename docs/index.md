@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: 开发者文档
-  text: 
+  name: VitePress
+  text: Vite & Vue powered static site generator
   tagline: balabalabala...
   image:
-    src: /index.png
+    src: /app.png
     alt: VitePress
   actions:
     - theme: brand
