@@ -23,3 +23,7 @@
   --vp-c-brand-light: #D939CD;
   --vp-c-brand-dark: #D939CD;
 }
+
+.logo {
+  height: 50px!important;
+}
