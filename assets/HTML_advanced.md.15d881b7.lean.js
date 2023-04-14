@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,N as i}from"./chunks/framework.3ceca4fc.js";const m=JSON.parse('{"title":"advanced","description":"","frontmatter":{},"headers":[],"relativePath":"HTML/advanced.md"}'),l={name:"HTML/advanced.md"},r=i("",21),h=[r];function o(d,n,c,s,u,b){return e(),a("div",null,h)}const f=t(l,[["render",o]]);export{m as __pageData,f as default};
