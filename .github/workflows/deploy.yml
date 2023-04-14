@@ -20,10 +20,11 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm run build
+      - run: cd docs/.vitepress/dist
       - name: Deploy # 部署
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           repository-name: xugaoyang/vitepress-demo
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages # 部署后提交到那个分支
-          folder: dist # 这里填打包好的目录名称
+          folder: docs/.vitepress/dist # 这里填打包好的目录名称

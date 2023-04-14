@@ -7,7 +7,7 @@ hero:
   text: Vite & Vue powered static site generator
   tagline: balabalabala...
   image:
-    src: /app.png
+    src: /iamges/app.png
     alt: VitePress
   actions:
     - theme: brand
